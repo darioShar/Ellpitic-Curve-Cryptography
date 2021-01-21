@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Vtk">
+      <UniqueIdentifier>{bf4d9938-57c7-412b-b83d-a3b74a451575}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ecc">
+      <UniqueIdentifier>{b8e408a0-1cd8-4853-bb04-c9b831dbb5ae}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Constants.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="ectypes.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="plot.h">
+      <Filter>Vtk</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ZpZ.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="test.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ECDH.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="ECDSA.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="Poly.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="EllPoint.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+    <ClInclude Include="EllCurve.h">
+      <Filter>ecc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="plot.cpp">
+      <Filter>Vtk</Filter>
+    </ClCompile>
+    <ClCompile Include="ecc.cpp">
+      <Filter>ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="ectypes.cpp">
+      <Filter>ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Poly.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EllPoint.cpp">
+      <Filter>ecc</Filter>
+    </ClCompile>
+    <ClCompile Include="EllCurve.cpp">
+      <Filter>ecc</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
